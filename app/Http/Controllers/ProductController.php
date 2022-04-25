@@ -19,4 +19,9 @@ class ProductController extends Controller
         $data= product ::find($id);
         return view('detail',['product'=>$data]);
     }
+
+    function addtoCart(Request $req)
+    {
+        return "hello";
+    }
 }
