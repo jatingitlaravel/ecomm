@@ -22,5 +22,15 @@
         height:500px;
         padding-top:100px;
     }
+    .tranding-img{
+        height:100px;
+    }
+    .tranding-item{
+        float:left;
+        width:25%;
+    }
+    .detail-img{
+        height:200px;
+    }
 </style>
 </html>
