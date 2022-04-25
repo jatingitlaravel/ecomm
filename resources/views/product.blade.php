@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-<div class="custom-product">
+  <div class="custom-product">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -16,8 +16,8 @@
     <a href="detail/{{$item['id']}}">
       <img src="{{ $item['gallery']}}" alt="Chania">
       <div class="carousel-caption">
-        <h3>{{ $item['name']}}</h3>
-        <p>{{ $item['description']}}</p>
+        <h3>{{$item['name']}}</h3>
+        <p>{{$item['description']}}</p>
       </div>
       </a>
       </div>

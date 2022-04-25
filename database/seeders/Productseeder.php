@@ -15,7 +15,7 @@ class Productseeder extends Seeder
     public function run()
     {
         //
-        DB::table('product')->insert(
+        DB::table('product')->insert([
             [
             'name'=>'LG moblie',
             'price'=>'10000',
@@ -43,6 +43,8 @@ class Productseeder extends Seeder
             'description'=>'new camera best screen',
             'category'=>'camera',
             'gallery'=>"https://m.media-amazon.com/images/I/21CffnnlkJL.jpg",
-        ]);
+            
+        ]
+    ]);
     }
 }
